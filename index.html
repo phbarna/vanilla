@@ -12,8 +12,42 @@
     <body>
         <div class="h-screen w-screen grid grid-rows-[1fr_12fr_1fr]">
           <div class="bg-red-500 p-4">Header</div>
-          <div class="bg-green-500 p-4">Content</div>
+          <div class="bg-green-500 p-4">
+            <form>
+              <label for="name" class="block text-sm font-medium text-gray-700">
+                Name
+                <span class="text-red-500">*</span>
+              </label>
+              <input type="text" id="name" name="name" required class="mt-1 block border-gray-300 rounded-md shadow-sm">
+              
+              <label for="email" class="block text-sm font-medium text-gray-700">
+                Email
+                <span class="text-red-500">*</span>
+              </label>
+              <input type="email" id="email" name="email" required class="mt-1 block border-gray-300 rounded-md shadow-sm">
+              
+              <button type="submit" >
+                Submit
+              </button>
+            </form>
+
+            <div class="flex flex-col space-y-1">
+              <div>01</div>
+              <div>02</div>
+              <div>03</div>
+            </div>
+            
+            
+          
+
+            <button class="bg-black mr-4">click me</button>
+
+          </div>
           <div class="bg-blue-500 p-4">Footer</div>
+        </div>
+        <div>
+
+        
         </div>
       </body>
     </html>
