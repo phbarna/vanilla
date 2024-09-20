@@ -2,12 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+  h1 {
+    @apply text-xl font-extrabold text-gray-900 leading-tight
+  }
+}
+
 @layer components {
     button {
       @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
     }
-    h1 {
-      @apply text-5xl font-extrabold text-gray-900 leading-tight
-    }
+
   }
+
+  /* Custom utility */
+@layer utilities {
+  .skew-10 {
+    transform: skewY(-10deg);
+  }
+}
   
