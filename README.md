@@ -1,5 +1,8 @@
+## Used for testing tailwind in a Vanilla Environment.
+
+
 Use 'npx serve' to start a local web werver
 
-# You need to build tailwind like the following when you add more tailwind functionality
-npx tailwindcss build input.css -o output.css --watch
+You need to build tailwind like the following when you add more tailwind functionality
+npx tailwindcss build input.css -o output.css --watchs
 

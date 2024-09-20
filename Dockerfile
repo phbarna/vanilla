@@ -10,8 +10,9 @@ COPY . .
 # Install dependencies (if any)
 RUN npm install
 
-# Expose the port that your server will run on
-EXPOSE 3000
+# Expose the port that your server will run on - good practise.
+EXPOSE 4000
 
 # Run the server using npx
-CMD ["npx", "serve"]
+CMD ["npx", "serve", "-l", "4000"]
+
