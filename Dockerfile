@@ -15,4 +15,3 @@ EXPOSE 4000
 
 # Run the server using npx
 CMD ["npx", "serve", "-l", "4000"]
-
