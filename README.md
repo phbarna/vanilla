@@ -1,9 +1,9 @@
 ## Used for testing tailwind in a Vanilla Environment.
 
-Use 'npx serve' to start a local web werver
+Use 'npx serve' to start a local web server
 
 You need to build tailwind like the following when you add more tailwind functionality
-npx tailwindcss build input.css -o output.css --watchs
+npx tailwindcss build input.css -o output.css --watch
 
 ## to build docker container do:
 docker build -t myapp .
